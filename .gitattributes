@@ -1,0 +1,15 @@
+build/* linguist-vendored
+Cargo.lock linguist-generated
+yarn.lock linguist-generated
+* text=auto
+
+*.yaml linguist-detectable=false
+
+*.jpeg binary 
+package-lock.json linguist-generated
+
+public/index.html linguist-vendored
+src/** linguist-detectable  
+public/**/*.html linguist-vendored
+
+*.tsx linguist-detectable
